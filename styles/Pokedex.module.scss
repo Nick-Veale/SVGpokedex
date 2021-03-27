@@ -36,7 +36,18 @@
     }
   }
   .image {
-    filter: grayscale(50%) contrast(150%) opacity(90%) hue-rotate(20deg);
+    filter: grayscale(60%) contrast(150%) opacity(60%);
+  }
+  .incDec {
+    height: 60px;
+    width: 90px;
+    font-family: VT323;
+    font-size: 1.5em;
+    opacity: 0.2;
+    &:hover {
+      cursor: pointer;
+      background-color: grey;
+    }
   }
   .pokemonDetails {
     display: flex;
@@ -45,11 +56,51 @@
     padding: 10px;
     font-family: VT323;
     font-size: 1.5em;
+    opacity: 0.7;
+    text-shadow: 1px 1px 1px black;
     u {
       text-transform: capitalize;
     }
     div:first-child {
       font-size: 1.2em;
+    }
+  }
+  .infoDisplay {
+    height: 200px;
+    width: 450px;
+    padding: 10px;
+    font-family: VT323;
+    font-size: 1.6em;
+    display: flex;
+    opacity: 0.9;
+    text-shadow: 1px 1px 1px black;
+    div {
+      margin-bottom: 3px;
+    }
+    .basicInfo {
+      width: 150px;
+      ul {
+        margin: 0px;
+        padding-left: 20px;
+        font-size: 0.8em;
+      }
+    }
+    .stats {
+      .stat {
+        display: flex;
+        align-items: center;
+        width: 250px;
+        .statName {
+          min-width: 120px;
+        }
+        .statLine {
+          margin-left: 5px;
+          height: 10px;
+          background-color: white;
+          box-shadow: 1px 1px 1px black;
+          opacity: 0.9;
+        }
+      }
     }
   }
 }

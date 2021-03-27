@@ -51,8 +51,21 @@
 }
 
 .container .image {
-  -webkit-filter: grayscale(50%) contrast(150%) opacity(90%) hue-rotate(20deg);
-          filter: grayscale(50%) contrast(150%) opacity(90%) hue-rotate(20deg);
+  -webkit-filter: grayscale(60%) contrast(150%) opacity(60%);
+          filter: grayscale(60%) contrast(150%) opacity(60%);
+}
+
+.container .incDec {
+  height: 60px;
+  width: 90px;
+  font-family: VT323;
+  font-size: 1.5em;
+  opacity: 0.2;
+}
+
+.container .incDec:hover {
+  cursor: pointer;
+  background-color: grey;
 }
 
 .container .pokemonDetails {
@@ -69,6 +82,8 @@
   padding: 10px;
   font-family: VT323;
   font-size: 1.5em;
+  opacity: 0.7;
+  text-shadow: 1px 1px 1px black;
 }
 
 .container .pokemonDetails u {
@@ -77,5 +92,55 @@
 
 .container .pokemonDetails div:first-child {
   font-size: 1.2em;
+}
+
+.container .infoDisplay {
+  height: 200px;
+  width: 450px;
+  padding: 10px;
+  font-family: VT323;
+  font-size: 1.6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0.9;
+  text-shadow: 1px 1px 1px black;
+}
+
+.container .infoDisplay div {
+  margin-bottom: 3px;
+}
+
+.container .infoDisplay .basicInfo {
+  width: 150px;
+}
+
+.container .infoDisplay .basicInfo ul {
+  margin: 0px;
+  padding-left: 20px;
+  font-size: 0.8em;
+}
+
+.container .infoDisplay .stats .stat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+}
+
+.container .infoDisplay .stats .stat .statName {
+  min-width: 120px;
+}
+
+.container .infoDisplay .stats .stat .statLine {
+  margin-left: 5px;
+  height: 10px;
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 1px black;
+          box-shadow: 1px 1px 1px black;
+  opacity: 0.9;
 }
 /*# sourceMappingURL=Pokedex.module.css.map */

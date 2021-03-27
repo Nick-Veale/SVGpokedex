@@ -114,6 +114,14 @@
   height: 1em;
 }
 
+.background {
+  position: fixed;
+  z-index: -1;
+  width: 100vw;
+  min-width: 1750px;
+  transform: scale(1.1);
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
