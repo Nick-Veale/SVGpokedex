@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a simple PokeDex app made to experiment with custom SVG coding. I wanted to learn the ins and outs of drawing complex shapes with SVG, and thought a good project to start with would be to re-create the pokedex. 
+
+Got a bit carried away with functionality. Unfortunately it can't be hosted, because the PokeAPI is in-secure, but feel free to clone it and check out what I've done.
 
 ## Getting Started
 
